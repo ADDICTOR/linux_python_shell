@@ -45,3 +45,5 @@ influxdb_client
 pypattyrn
 Pint
 pyinstaller
+[PASSWORD]
+123456
