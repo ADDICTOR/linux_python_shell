@@ -1,0 +1,47 @@
+[APT_SOURCE]
+deb http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
+[APT_SOFTWARE]
+openssh-server
+x11vnc
+git
+supervisor
+make
+gcc
+g++
+vim
+libudev-dev
+autoconf
+libzmq3-dev
+chrome-gnome-shell
+libzmq3-dev
+net-tools
+[PIP_SOURCE]
+https://pypi.tuna.tsinghua.edu.cn/simple
+[PIP_MODULE]
+flask
+pyautogui==0.9.52
+pyqtgraph==0.12.2
+PyQt==5.14.2
+PyQtWebEngine==5.14.0
+pymongo==3.8.0
+pyserial
+paho-mqtt
+grpcio_tools
+protobuf
+grpcio
+pyzmq
+python-xlib
+modbus_tk
+influxdb_client
+pypattyrn
+Pint
+pyinstaller
