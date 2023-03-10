@@ -1,2 +1,0 @@
-deb http://site.example.com/debian distribution component1 component2 component3
-deb-src http://site.example.com/debian distribution component1 component2 component3
