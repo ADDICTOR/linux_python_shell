@@ -12,7 +12,8 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted univers
 [APT_SOFTWARE]
 openssh-server
 x11vnc
-python3-git
+python3-pip
+git
 supervisor
 make
 gcc
