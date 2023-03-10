@@ -1,6 +1,6 @@
 # linux_python_shell
 
-## Linux-Python脚本编程
+## machine_installation
 
 工控机项目1.0版本，用于linux ubuntu / raspberry 系统的环境配置脚本，包含：
 

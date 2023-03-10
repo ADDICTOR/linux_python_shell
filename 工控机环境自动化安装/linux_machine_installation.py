@@ -68,6 +68,7 @@ def python_environment_installation():
         subprocess.call(f'pip3 install {p}', shell=True)
 
 if  __name__ == "__main__":
+    config_initialization()
     apt_switching_source()
     apt_software_installation()
     pip_switching_source()
