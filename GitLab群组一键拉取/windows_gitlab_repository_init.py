@@ -2,14 +2,13 @@ import subprocess
 
 name = input('请输入项目名称：')
 
-subprocess.call(f'git clone http://zhouxingjian:123qweasdzxc@192.168.11.84/{name}/deviceservice.git',shell=True)
+username = 'zhouxingjian'
 
-subprocess.call(f'git clone http://zhouxingjian:123qweasdzxc@192.168.11.84/{name}/deviceshadow.git',shell=True)
+password = '123qweasdzxc'
 
-subprocess.call(f'git clone http://zhouxingjian:123qweasdzxc@192.168.11.84/{name}/ui.git',shell=True)
+repository_list = ['deviceservice','deviceshadow','ui','datamanager','scpiservice','document','modbusserver','susi4']
 
-subprocess.call(f'git clone http://zhouxingjian:123qweasdzxc@192.168.11.84/{name}/datamanager.git',shell=True)
+command = f"git clone http://{username}:{password}@192.168.11.84/{name}/"
 
-subprocess.call(f'git clone http://zhouxingjian:123qweasdzxc@192.168.11.84/{name}/scpiservice.git',shell=True)
-
-subprocess.call(f'git clone http://zhouxingjian:123qweasdzxc@192.168.11.84/{name}/document.git',shell=True)
+for r in repository_list:
+    subprocess.call(f'{command}{r}.git',shell=True)
