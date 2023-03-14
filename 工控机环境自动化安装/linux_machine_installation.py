@@ -30,7 +30,7 @@ def config_initialization():
             elif line == '[PIP_MODULE]\n':
                 operation = python_environment_list
                 continue
-            elif line == '[PASSWORD]':
+            elif line == '[PASSWORD]\n':
                 operation = password
                 continue
             else:
