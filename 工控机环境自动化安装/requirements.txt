@@ -22,8 +22,6 @@ vim
 libudev-dev
 autoconf
 libzmq3-dev
-chrome-gnome-shell
-libzmq3-dev
 net-tools
 [PIP_SOURCE]
 https://pypi.tuna.tsinghua.edu.cn/simple

@@ -28,4 +28,9 @@
     3. [PIP_SOURCE] : pip国内源
     4. [PIP_MODULE] : python需要安装的环境，目前主流linux系统都自带python3
     5. [PASSWORD] : Linux用户密码
-2. 运行machine_installation.py
+2. 运行linux_machine_env.py
+
+## Tips
+
+1. chrome-gnome-shell 安装时间太久，建议单独安装
+2. PyQt5==5.14.2 安装失败概率很大，详情咨询ZZA
