@@ -31,7 +31,7 @@ https://pypi.tuna.tsinghua.edu.cn/simple
 flask
 pyautogui==0.9.52
 pyqtgraph==0.12.2
-PyQt==5.14.2
+PyQt5==5.14.2
 PyQtWebEngine==5.14.0
 pymongo==3.8.0
 pyserial
@@ -48,6 +48,6 @@ Pint
 pyinstaller
 pandas
 zerorpc
-yaml
+pyyaml
 [PASSWORD]
 123456
