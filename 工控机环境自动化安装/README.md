@@ -29,7 +29,8 @@
     3. [PIP_SOURCE] : pip国内源
     4. [PIP_MODULE] : python需要安装的环境，目前主流linux系统都自带python3
     5. [PASSWORD] : Linux用户密码
-3. 运行linux_machine_env.py
+3. 将linux_machine_env.py 与 requirements.txt 文件放至目标文件夹
+4. python3 linux_machine_env.py
 
 ## Tips
 
