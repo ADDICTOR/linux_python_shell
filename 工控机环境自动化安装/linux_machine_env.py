@@ -60,6 +60,10 @@ def apt_software_installation():
     for _s in apt_software_list:
         subprocess.call(f'sudo -S apt-get install {_s} -y', shell=True)
 
+def script_software_installation():
+    """脚本安装
+    """
+    subprocess.call('sudo curl -sSL http://get.docker.com | sh', shell=True)
 
 def pip_switching_source():
     """pip更换国内源
@@ -79,5 +83,6 @@ if __name__ == "__main__":
     config_initialization()
     apt_switching_source()
     apt_software_installation()
+    script_software_installation()
     pip_switching_source()
     python_environment_installation()

@@ -23,6 +23,7 @@ libudev-dev
 autoconf
 libzmq3-dev
 net-tools
+tmux
 [PIP_SOURCE]
 https://pypi.tuna.tsinghua.edu.cn/simple
 [PIP_MODULE]
